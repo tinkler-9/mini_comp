@@ -1,0 +1,17 @@
+[project]
+name = "mini-comp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tatiana Iakovleva", email = "t.neckrasova@gmail.com" }
+]
+requires-python = ">=3.14.8"
+dependencies = []
+
+[project.scripts]
+mini-comp = "mini_comp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
