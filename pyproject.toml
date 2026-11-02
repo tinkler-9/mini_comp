@@ -8,10 +8,12 @@ authors = [
 ]
 requires-python = ">=3.14.8"
 dependencies = [
+    "category-encoders>=2.11.2",
     "ipykernel>=7.4.0",
     "jupyter>=1.1.1",
     "pandas>=3.1.0",
     "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
 ]
 
 [project.scripts]
